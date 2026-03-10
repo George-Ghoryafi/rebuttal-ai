@@ -1,0 +1,6 @@
+rebuttal-backend/.env
+rebuttal-backend/__pycache__/
+rebuttal-backend/.venv/
+node_modules/
+dist/
+.DS_Store

@@ -75,18 +75,7 @@ rebuttal-ai/
    npm run dev
    # Runs on http://localhost:5173
    ```
-
-### 3. Testing the AI Logic
-To run the automated suite of predefined sales pitches against the Groq model:
-```bash
-cd rebuttal-backend
-source .venv/bin/activate
-python test_pitches.py
-```
-This script tests 8 different scenarios (4 "good" pitches, 4 "bad" pitches) and verifies that the AI scores them appropriately based on its system prompt constraints.
-
----
-
+   
 ## ⚖️ Tradeoffs & Production Considerations
 
 This project was built quickly as a personal prototype. Several intentional tradeoffs were made in the interest of speed. If this were to transition into a production enterprise app, we would rethink the following:
